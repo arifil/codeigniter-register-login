@@ -65,7 +65,7 @@ class login extends MY_Controller
 				$this->session->set_flashdata('user','User not added Please try again!!');
 				$this->session->set_flashdata('user_class','alert-danger');
 			}
-			return redirect('login');
+			return redirect('users/register');
 		}
 		else
 		{
